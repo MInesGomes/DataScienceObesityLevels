@@ -1,16 +1,34 @@
-# Data Science Estimation of Obesity Levels Based on Eating Habits and Physical Condition
+
+### Table of Contents
+* [0. Identify Business needs](#business)<br>
+* [1. Import Data](#import) <br>
+* [2. Explore Data](#explore) <br>
+    * [2.1. Basic Exploration](#basic)<br>
+    * [2.2. Visualizations functions](#visual_fun)<br>
+    * [2.3. Possible inconsistencies](#incons)<br>
+    * [2.4. Statistical Exploration](#stats)<br>
+        * [2.4.1. Numerical Variables](#stats_num)<br>
+        * [2.4.2. Categorical Variables](#stats_cat)<br>
+        * [2.4.3. Skewness and Kurtosis](#skew)<br>
+        * [2.4.4. Remaining Categorical Variables](#cat)<br>
+        * [2.4.5. Target variable](#target)<br>
+    * [2.5. Visual Exploration](#visual)<br>
+        * [2.5.1. Numerical Variables](#visual_num)<br>
+        * [2.5.2. Categorical Variables](#visual_cat)<br>
+
+## Data Science Estimation of Obesity Levels Based on Eating Habits and Physical Condition
 
 
 Possible research questions include:
 
 
-# 2.1  Do physical activity levels significantly influence obesity classification?
+## 2.1  Do physical activity levels significantly influence obesity classification?
 
 
 FAF  **Cont** - Frequency of physical activity 
 
 ---
-# 2.2  Are eating habits stronger predictors of obesity than demographic factors?
+## 2.2  Are eating habits stronger predictors of obesity than demographic factors?
 
 
 FAVC **Bin** -Indicates whether the individual frequently consumes high-calorie food
