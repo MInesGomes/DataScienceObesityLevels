@@ -1,70 +1,36 @@
+<div class="alert alert-block alert-success">
 
-### Table of Contents
-* [0. Identify Business needs](#business)<br>
-* [1. Import Data](#import) <br>
-* [2. Explore Data](#explore) <br>
-    * [2.1. Basic Exploration](#basic)<br>
-    * [2.2. Visualizations functions](#visual_fun)<br>
-    * [2.3. Possible inconsistencies](#incons)<br>
-    * [2.4. Statistical Exploration](#stats)<br>
-        * [2.4.1. Numerical Variables](#stats_num)<br>
-        * [2.4.2. Categorical Variables](#stats_cat)<br>
-        * [2.4.3. Skewness and Kurtosis](#skew)<br>
-        * [2.4.4. Remaining Categorical Variables](#cat)<br>
-        * [2.4.5. Target variable](#target)<br>
-    * [2.5. Visual Exploration](#visual)<br>
-        * [2.5.1. Numerical Variables](#visual_num)<br>
-        * [2.5.2. Categorical Variables](#visual_cat)<br>
+Obesity is one of the most significant global public health challenges of the 21st century. According to the World Health Organization (WHO), it is a primary driver of cardiovascular diseases, type 2 diabetes, and reduced life expectancy. Understanding the behavioral, dietary, and physical factors associated with obesity is critical for designing effective public health policies and personal interventions.
 
-## Data Science Estimation of Obesity Levels Based on Eating Habits and Physical Condition
+With the increasing availability of lifestyle data, machine learning offers powerful tools to identify complex patterns between daily habits and body mass. By analyzing eating behaviors, physical activity, technology use, and demographics, we can develop data-driven models that uncover meaningful insights into obesity risk factors.
 
+ **Project Objectives**
 
-Possible research questions include:
+The primary goal is to understand the relationship between lifestyle behaviors and obesity levels through data exploration and predictive modeling.
 
+*   **Exploratory Analysis:** Identify behavioral patterns and correlations within the dataset.
+*   **Predictive Modeling:** Develop and evaluate classification models to predict obesity levels based on lifestyle variables.
+*   **Feature Importance:** Determine which habits (e.g., physical activity vs. diet) are the strongest predictors of obesity risk.
+*   **Actionable Insights:** Propose recommendations for public health policies and lifestyle interventions.
 
-## 2.1  Do physical activity levels significantly influence obesity classification?
+ **Research Questions**
 
+*   Does physical activity significantly influence obesity classification?
+*   Are eating habits stronger predictors of obesity than demographic factors?
+*   Is there a measurable relationship between technology usage (screen time) and obesity levels?
+*   Do transportation habits (e.g., walking vs. driving) correlate with healthier outcomes?
+*   How do obesity patterns vary across different age groups and genders?
 
-FAF  **Cont** - Frequency of physical activity 
+ **Dataset Limitations & Future Scope**
 
----
-## 2.2  Are eating habits stronger predictors of obesity than demographic factors?
+While this dataset provides a strong foundation, several critical factors—particularly those related to mental health and socio-economics—are currently unavailable. Future research would benefit from including:
 
+*   **Social Context:** Eating alone vs. with family; screen time allowed during meals.
+*   **Home Environment:** Single-parent households or household size.
+*   **Work-Life Balance:** Long commute times leading to "cooking fatigue" and reliance on convenience foods.
+*   **Dietary Specifics:** Granular data on fast food frequency and meat consumption.
+*   **Geographic Diversity:** Data from a wider variety of regions and cultures.
 
-FAVC **Bin** -Indicates whether the individual frequently consumes high-calorie food
+**Project Repository:** [GitHub - Data Science Obesity Levels](https://github.com/MInesGomes/DataScienceObesityLevels)
 
-FCVC -**Int** -Frequency of vegetable consumption during meals
-
-NCP - **Cont** Number of main meals consumed daily
-
-CAEC **Cat** -Frequency of food consumption
-between meals
-
-SMOKE  **Bin** - Indicates whether the individual smokes
-
-CH2O - **Cont** - Amount of water consumed daily
-
-SCC **Bin** - Indicates whether the individual monitors daily calorie intake
-
-
-CALC **Cat** - Frequency of alcohol consumption
-
----
-2.3  Is there a relationship between technology usage (screen time) and obesity levels?
-
-
-TUE **Int** - Time spent using technological devices (e.g., smartphone, computer, television, videogames)
-
----
-2.4  Do transportation habits correlate with healthier lifestyles?
-
-MTRANS **Cat** - Primary mode of transportation used
-
----
-2.5  Can obesity patterns vary across age groups or genders?
-
-Gender Feature Categorical Gender of the individual
-Age Feature Continuous Age of the individual
-Height 
-
-
+</div>
